@@ -6,4 +6,5 @@ const n2 = prompt("Enter second number: ");
 let addition = Number(n1) + Number(n2);
 let multiplication = Number(n1) + Number(n2);
 
-console.log(`Your result is: ${result}`);
+console.log(`Addition: ${addition}`);
+console.log(`Multiplication: ${multiplication}`);
