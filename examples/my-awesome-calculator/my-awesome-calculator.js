@@ -1,5 +1,6 @@
 export default function awesomeCalculator(n1, n2) {
-  let result = n1 + n2;
+  let addition = n1 + n2;
+  let division = n1 / n2;
 
-  return result;
+  return { addition, division };
 }
