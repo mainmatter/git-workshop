@@ -1,6 +1,11 @@
 # Git Workshop example app
 
-This is the example application we're using in the Git workshop.
+This repository contains the examples and slides for simplabs' Git workshop.
+
+* The `examples` folder in the `main` branch contains an example app.
+* The `examples` branch and branches branched off of it illustrate concept of
+  Git.
+* Ths `slides` branch contains the workshop's slides.
 
 ## License
 
