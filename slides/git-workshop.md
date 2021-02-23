@@ -809,6 +809,18 @@ Notes:
 
 Notes:
 * both the merged merged branch and target branch point to the same commit in a linear history now
+* …let's look at a real example…
+
+---
+
+## Example
+TODO: create this example
+Performing a fast-forward merge
+
+Notes:
+* both on the command line and with Fork:
+  * on the `examples-ff-merge` branch, show there's one additional commit compared to the examples branch
+  * merge `examples-ff-merge` into `examples`, show that that applies cleanly
 * so this is easy but when talking about merging we're typically thinking of a more complicated scenario…
 
 ---
@@ -852,6 +864,19 @@ Notes:
   * it has 2 parents which are the latest commits from the merged branch and the target branch
   * and the target branch's HEAD now is that new merge commit
 * during the generation of this merge commit is when conflicts will occur that you'll fix then
+
+---
+
+## Example
+TODO: create this example
+Performing a 3-way merge.
+
+Notes:
+* both on the command line and with Fork:
+  * on the `examples-3way-merge` branch, show there's one additional commit compared to the examples branch
+    * but there was also an additional commit to the `examples` branch in the meantime
+  * merge `examples-3way-merge` into `examples`, resolve the conflict and show the merge commit
+* …now you go…
 
 ---
 
