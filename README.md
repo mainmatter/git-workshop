@@ -1,4 +1,4 @@
-# Git Workshop example app
+# Git Workshop
 
 This repository contains the examples and slides for simplabs' Git workshop.
 
