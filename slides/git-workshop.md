@@ -713,6 +713,17 @@ Notes:
 
 ---
 
+## Example
+
+Making several changes at once, then committing them individually.
+
+Notes:
+* both on the command line and with Fork:
+  * on the `examples` branch, edit the file and create 3 sections
+  * commit them individually, one-by-one
+
+---
+
 ## Task
 
 We want to make some changes to the README.md and stage them individually.
