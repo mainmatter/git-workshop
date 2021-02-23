@@ -930,18 +930,18 @@ Notes:
 ---
 
 ```bash
-» git clone git@github.com:simplabs/git-workshop-example.git
-Cloning into 'git-workshop-example'...
+» git clone git@github.com:simplabs/git-workshop.git
+Cloning into 'git-workshop'...
 remote: Enumerating objects: 70, done.
 remote: Counting objects: 100% (70/70), done.
 remote: Compressing objects: 100% (31/31), done.
 remote: Total 70 (delta 27), reused 66 (delta 23), pack-reused 0
 Receiving objects: 100% (70/70), 79.71 KiB | 784.00 KiB/s, done.
 Resolving deltas: 100% (27/27), done.
-» cd git-workshop-example 
+» cd git-workshop 
 » git remote -v
-origin	git@github.com:simplabs/git-workshop-example.git (fetch)
-origin	git@github.com:simplabs/git-workshop-example.git (push)
+origin	git@github.com:simplabs/git-workshop.git (fetch)
+origin	git@github.com:simplabs/git-workshop.git (push)
 ```
 
 Notes:
@@ -1024,7 +1024,7 @@ Compressing objects: 100% (3/3), done.
 Writing objects: 100% (3/3), 351 bytes | 351.00 KiB/s, done.
 Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (1/1), completed with 1 local object.
-To github.com:simplabs/git-workshop-example.git
+To github.com:simplabs/git-workshop.git
    53bef25..61381a3  main -> main
 ```
 
