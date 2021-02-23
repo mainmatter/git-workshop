@@ -1029,7 +1029,7 @@ Notes:
 
 #### Example
 
-Merging the target branch into our branch
+Merging the target branch into our branch vs. rebasing our branch on the target branch.
 
 Notes:
 * both on the command line and with Fork:
@@ -1168,10 +1168,16 @@ Notes:
 
 #### Example
 
-TODO: show interactive rebasing
+Rebasing our branch on the target branch and cleaning up some commits along the way.
 
 Notes:
-* …so how do we get our local changes back to the remote?
+* both on the command line and with Fork:
+  * on the `examples-merge-rebase` branch, show the commit history
+    * one commit should not be there at all
+    * 2 commits should be combined
+  * rebase `examples-merge-rebase` interactively on the `examples` branch
+    * remove the debug commit
+    * combine the 2 text changes
 
 ---
 
