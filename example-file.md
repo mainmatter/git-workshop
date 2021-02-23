@@ -1,3 +1,3 @@
 # This is an example
 
-This file does not acually have any real meaning.
+This file does not actually have any real meaning.
