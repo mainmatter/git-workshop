@@ -629,7 +629,7 @@ Notes:
 
 ---
 
-### Stages
+#### Stages
 
 Git distinguishes between 4 states the files in your working directory can have:
 
@@ -658,7 +658,7 @@ Notes:
 
 ---
 
-- tracked: the file is part of the repo
+tracked: the file is part of the repo
 
 ```bash
 » git rev-parse HEAD^{tree}
@@ -716,8 +716,8 @@ Notes:
 
 ---
 
-- changed: the file is part of the repo and has different contents than what's
-  referenced from the HEAD revision of the repo's root tree\*
+changed: the file is part of the repo and has different contents than what's
+referenced from the HEAD revision of the repo's root tree\*
 
 ```bash
 » echo "test" >> README.md
@@ -1058,7 +1058,7 @@ Notes:
 
 ---
 
-#### Task – linear merge
+## Task – linear merge
 
 We want to do both a fast-forward and a 3-way merge commit
 
@@ -1070,7 +1070,7 @@ We want to do both a fast-forward and a 3-way merge commit
 
 ---
 
-#### Task – 3-way merge
+## Task – 3-way merge
 
 - from `main` branch, create a new branch `my-branch`
 - add a commit to that branch
@@ -1078,8 +1078,6 @@ We want to do both a fast-forward and a 3-way merge commit
 - add a commit to that branch
 - merge `my-branch` into the `main` branch
 - look at the history
-
----
 
 Notes:
 
@@ -1242,7 +1240,7 @@ Notes:
 
 ---
 
-## Rewriting History
+#### Rewriting History
 
 ![PR – conflict](/images/bad-pr-conflict.png)
 
@@ -1258,7 +1256,7 @@ Notes:
 
 ---
 
-#### Example
+## Example
 
 Merging the target branch into our branch vs. rebasing our branch on the target
 branch.
@@ -1439,7 +1437,7 @@ Notes:
 
 ---
 
-#### Example
+## Example
 
 Rebasing our branch on the target branch and cleaning up some commits along the
 way.
@@ -1537,6 +1535,7 @@ We want to apply all of what we learned and fix a bad PR:
 Make use https://git-scm.com/docs and `git <command> --help`.
 
 Notes:
+
 - pair with 2 people & talk to each other about what you're doing
 - this is the last task – you know everything you need to know after this!
 - things to realize/fix:
@@ -1544,5 +1543,6 @@ Notes:
   - there's a conflict
   - the addition of Prettier should go into its own PR
   - a test is missing for the multiplication
-  - some of the commits (possibly all of the remaining 3) should be combined into one
+  - some of the commits (possibly all of the remaining 3) should be combined
+    into one
   - the PR should have a proper description
