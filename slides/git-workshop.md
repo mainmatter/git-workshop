@@ -974,8 +974,6 @@ Notes:
 
 ## Example
 
-TODO: create this example Performing a fast-forward merge
-
 Notes:
 
 - both on the command line and with Fork:
