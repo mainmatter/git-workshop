@@ -1041,8 +1041,6 @@ Notes:
 
 ## Example
 
-TODO: create this example Performing a 3-way merge.
-
 Notes:
 
 - both on the command line and with Fork:
