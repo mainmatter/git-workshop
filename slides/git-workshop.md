@@ -974,6 +974,8 @@ Notes:
 
 ## Example
 
+Merging a branch into another one with Fast-Forward merging.
+
 Notes:
 
 - both on the command line and with Fork:
@@ -1040,6 +1042,8 @@ Notes:
 ---
 
 ## Example
+
+Merging a branch into another with a 3-way merge.
 
 Notes:
 
