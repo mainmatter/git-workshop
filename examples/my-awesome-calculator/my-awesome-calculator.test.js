@@ -10,4 +10,9 @@ describe("awesomeCalculator", function () {
     let { division } = awesomeCalculator(4, 2);
     expect(division).toEqual(2);
   });
+
+  test("it returns the multiplication of two numnbers", function () {
+    let { multiplication } = awesomeCalculator(4, 2);
+    expect(multiplication).toEqual(8);
+  });
 });
