@@ -1395,13 +1395,13 @@ Your branch is up to date with 'origin/my-branch'.
 » git fetch origin
 » git status
 On branch my-branch
-Your branch is up to date with 'origin/multiplication'.
+Your branch is up to date with 'origin/my-branch'.
 
 nothing to commit, working tree clean
 » git rebase origin/main
 » git status
-On branch multiplication
-Your branch and 'origin/multiplication' have diverged,
+On branch my-branch
+Your branch and 'origin/my-branch' have diverged,
 and have 7 and 4 different commits each, respectively.
 
 nothing to commit, working tree clean
@@ -1495,8 +1495,8 @@ history with what's on the remote
 ```bash
 » git fetch origin
 » git status
-On branch multiplication
-Your branch and 'origin/multiplication' have diverged,
+On branch my-branch
+Your branch and 'origin/my-branch' have diverged,
 and have 7 and 4 different commits each, respectively.
 
 nothing to commit, working tree clean
@@ -1504,7 +1504,7 @@ nothing to commit, working tree clean
 » git reset --hard origin/my-branch
 » git status
 On branch my-branch
-Your branch is up to date with 'origin/multiplication'.
+Your branch is up to date with 'origin/my-branch'.
 
 nothing to commit, working tree clean
 ```
