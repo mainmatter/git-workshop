@@ -9,6 +9,6 @@ This repository contains the examples and slides for simplabs' Git workshop.
 
 ## License
 
-Copyright © 2021 simplabs GmbH (https://simplabs.com); released under the
+Copyright © 2021 [Mainmatter GmbH](http://mainmatter.com); released under the
 Attribution NonCommercial ShareAlike 3.0 Unported license.
 
