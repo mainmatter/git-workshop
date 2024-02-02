@@ -4,17 +4,17 @@ Description goes here
 
 ## Running
 
-- yarn
-- yarn start
+- pnpm i
+- pnpm start
 
 _Note: press `S` to open a separate window with the speaker notes._
 
 ## Build
 
-- yarn
-- yarn build
+- pnpm i
+- pnpm build
 
 ## License
 
-Copyright © 2021 simplabs GmbH (https://simplabs.com); released under the
+Copyright © 2024 Mainmatter GmbH (https://mainmatter.com); released under the
 Attribution NonCommercial ShareAlike 3.0 Unported license.

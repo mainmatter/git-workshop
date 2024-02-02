@@ -3,28 +3,19 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "gulp serve",
-    "build": "gulp build",
+    "start": "auto-reveal start",
+    "build": "auto-reveal build",
     "lint": "prettier --check '{css,slides}/**/*.{css,md}|*.md'",
     "format": "prettier --write '{css,slides}/**/*.{css,md}|*.md'"
   },
   "author": {
-    "name": "simplabs GmbH",
-    "email": "info@simplabs.com",
-    "web": "https://simplabs.com"
+    "name": "Mainmatter GmbH",
+    "email": "info@mainmatter.com",
+    "web": "https://mainmatter.com"
   },
   "dependencies": {
-    "reveal.js": "^4.1.0"
-  },
-  "devDependencies": {
-    "browser-sync": "^2.26.14",
-    "del": "^6.0.0",
-    "gulp": "^4.0.2",
-    "gulp-uglify": "^3.0.2",
+    "auto-reveal": "^0.1.0",
+    "auto-reveal-theme-mainmatter": "github:pichfl/auto-reveal-theme-mainmatter",
     "prettier": "^2.2.1"
-  },
-  "volta": {
-    "node": "12.13.1",
-    "yarn": "1.22.4"
   }
 }
