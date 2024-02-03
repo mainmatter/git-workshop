@@ -3,7 +3,8 @@
 Pushing sends your local state back to the origin so others can see it as well.
 
 ```bash
-» git ci -a -m "test commit"
+» git add .
+» git commit -m "test commit"
 [main 61381a3] test commit
  1 file changed, 1 insertion(+)
 » git status

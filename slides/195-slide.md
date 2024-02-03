@@ -19,9 +19,11 @@ Your branch is up to date with 'origin/main'.
 
 Changes to be committed:
   modified:   README.md
+
 » git reset README.md
 Unstaged changes after reset:
 M	README.md
+
 » git status
 On branch main
 Your branch is up to date with 'origin/main'.
@@ -39,4 +41,5 @@ Note:
 - we add it, it is now staged and will be part of the next commit
 - we then use `reset` to go back a step and make file changed again
 - notice that on this slide we say that a set of changes to a file will be part
-  of the next commit, not necessarily the entire file…
+  of the next commit, not necessarily the entire file… well let's see if we can
+  demonstrate that

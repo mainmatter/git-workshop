@@ -18,4 +18,3 @@ Note:
 - we're editing `README.md` which is tracked by git
 - git reports the file as changed
 - so what does this staged for commit mean?
-  - we'll see that the text on this slide is not precisely correct

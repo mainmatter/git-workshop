@@ -24,7 +24,8 @@ Note:
 - README.md has been changed and those changes (not the file as such!) have been
   staged for commit
 - we then change the file again but those changes are not staged
-- this is the reason for the mark on the slide for the "changed" state
+- This is a very important point to consider, especially if you're just in the
+  habit of running git add . (everything) and then git commit
   - "changed" does not mean the contents of the file on disk are different from
     the contents of the same file in the HEAD revision of the repo but that they
     are different from the HEAD revision of the repo or a version of the file

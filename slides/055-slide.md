@@ -4,6 +4,8 @@ provide plannability and focus
 
 Note:
 
+**read the slide title**
+
 - we prefer saying "iteration" – "sprint" is unfortunate wording since running a
   marathon in a series of sprints will not make you complete the marathon faster
   than a steady pace

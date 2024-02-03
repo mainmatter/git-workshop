@@ -4,9 +4,12 @@
 
 Note:
 
+**read the title of the slide**
+
 - everyone is familiar with this generally by now and even if some teams would
-  have more branches etc. (which I'd generally advice to avoid though), it's
-  always the same: branch – validate – merge
+  have more branches than just main/master such as develop or release etc.
+  (which I'd generally advice to avoid though), it's always the same: branch –
+  validate – merge
 - and virtually everyone is using git for that
 - btw: GitHub and Bitbucket say Pull Requests while GitLab says Merge Request
   but they really all work the same way

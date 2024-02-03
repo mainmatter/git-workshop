@@ -6,8 +6,6 @@ Your branch is ahead of 'origin/main' by 1 commit.
 
 Untracked files:
   README2.md
-
-nothing added to commit but untracked files present
 ```
 
 ```bash
