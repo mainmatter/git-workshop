@@ -5,6 +5,8 @@ long hashes) and stored in the object database (`./git/objects` folder)
 
 Note:
 
+**read the slide**
+
 - you'll most often use only the first 8 characters as those are enough to
   uniquely identify things usually
   - if ever the first 8 characters are not enough, Git will tell you and you
